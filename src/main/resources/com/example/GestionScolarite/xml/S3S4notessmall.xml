@@ -1,0 +1,3154 @@
+<?xml version="1.0" encoding="UTF-8"?><notes  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="../XSD/NotesXsd.xsd.xsd">
+<Etudiant CNE="20000773">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">9</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">15</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">14</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">9</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">10</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">9</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">15</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001211">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">8</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">14</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">10</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">16</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">19</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">19</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">11</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">8</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">15</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001137">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">17</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">16</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">20</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">14</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">17</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">18</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">16</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">12</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">10</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">11</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000734">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">9</matiere>
+<matiere Nom="XML">14</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">13</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">14</matiere>
+<matiere Nom="IHM">9</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">11</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">16</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">13</matiere>
+<matiere Nom="Technique algorithmique avancée">10</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">13</matiere>
+<matiere Nom="Sécurité des systèmes">16</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000761">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">12</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">16</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">8</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">8</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">11</matiere>
+<matiere Nom="Programmation systèmes">20</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">20</matiere>
+<matiere Nom="Programmation en C#">8</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">13</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">19</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">16</matiere>
+<matiere Nom="Sécurité des systèmes">14</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001276">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">9</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">9</matiere>
+<matiere Nom="Programmation systèmes">17</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">15</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">13</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">19</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">16</matiere>
+<matiere Nom="Technique algorithmique avancée">19</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">9</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20001244">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">16</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">18</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">18</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">18</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">18</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">18</matiere>
+<matiere Nom="Techniques de communication">18</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">17</matiere>
+<matiere Nom="Programmation en C#">17</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">18</matiere>
+<matiere Nom="Technique algorithmique avancée">18</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">18</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">18</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000493">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">13</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">11</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">18</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">8</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">8</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">19</matiere>
+<matiere Nom="Technique algorithmique avancée">19</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">11</matiere>
+<matiere Nom="Sécurité des systèmes">11</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">11</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20006988">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">15</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">16</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">19</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">18</matiere>
+<matiere Nom="Programmation systèmes">15</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">9</matiere>
+<matiere Nom="Techniques de communication">10</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">12</matiere>
+<matiere Nom="Processus stochastique">19</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">13</matiere>
+<matiere Nom="Technique algorithmique avancée">9</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">11</matiere>
+<matiere Nom="Sécurité des systèmes">15</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">17</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007078">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">15</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">19</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">15</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">8</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">8</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">10</matiere>
+<matiere Nom="Processus stochastique">16</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">16</matiere>
+<matiere Nom="Technique algorithmique avancée">18</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">10</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000758">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">20</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">8</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">12</matiere>
+<matiere Nom="IHM">8</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">11</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">16</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">11</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">20</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">13</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000757">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">13</matiere>
+<matiere Nom="XML">16</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">19</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">18</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">8</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">18</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">11</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">20</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">15</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">16</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">17</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19002165">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">15</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">15</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">13</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">8</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">17</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">11</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">20</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">11</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">13</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000730">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">18</matiere>
+<matiere Nom="XML">13</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">10</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">13</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">20</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">14</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">17</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">20</matiere>
+<matiere Nom="Programmation en C#">8</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">9</matiere>
+<matiere Nom="Technique algorithmique avancée">17</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">13</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">11</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002424">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">13</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">14</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">15</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">11</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">12</matiere>
+<matiere Nom="Programmation systèmes">17</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">9</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">12</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">12</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000771">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">14</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">17</matiere>
+<matiere Nom="IHM">18</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">8</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">9</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">8</matiere>
+<matiere Nom="Programmation systèmes">11</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">19</matiere>
+<matiere Nom="Techniques de communication">18</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">10</matiere>
+<matiere Nom="Programmation en C#">15</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">15</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">8</matiere>
+<matiere Nom="Technique algorithmique avancée">16</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">13</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007025">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">14</matiere>
+<matiere Nom="XML">8</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">13</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">13</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">9</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">10</matiere>
+<matiere Nom="Programmation en C#">9</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">8</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">20</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">13</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007161">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">8</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">17</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">14</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">9</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">14</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">15</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">11</matiere>
+<matiere Nom="Technique algorithmique avancée">10</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">20</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20004313">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">15</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">11</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">20</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">19</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">13</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">8</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">11</matiere>
+<matiere Nom="Programmation systèmes">20</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">12</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">17</matiere>
+<matiere Nom="Technique algorithmique avancée">14</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">11</matiere>
+<matiere Nom="Management de projet">17</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007051">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">13</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">16</matiere>
+<matiere Nom="IHM">14</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">11</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">10</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">14</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">20</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">12</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">14</matiere>
+<matiere Nom="Technique algorithmique avancée">14</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">12</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002432">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">17</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">9</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">14</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">20</matiere>
+<matiere Nom="IHM">9</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">9</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">10</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">9</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">11</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">16</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">13</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">12</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002251">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">14</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">13</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">8</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">8</matiere>
+<matiere Nom="IHM">10</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">14</matiere>
+<matiere Nom="Techniques de communication">18</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">16</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">11</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">10</matiere>
+<matiere Nom="Processus stochastique">11</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">14</matiere>
+<matiere Nom="Technique algorithmique avancée">18</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">11</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">10</matiere>
+<matiere Nom="Management de projet">8</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002670">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">8</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">8</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">15</matiere>
+<matiere Nom="Programmation systèmes">11</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">19</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">13</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">14</matiere>
+<matiere Nom="Technique algorithmique avancée">17</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">15</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">11</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000742">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">12</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">14</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">13</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">18</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">14</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">9</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">13</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">9</matiere>
+<matiere Nom="Technique algorithmique avancée">12</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000741">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">12</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">10</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">17</matiere>
+<matiere Nom="IHM">9</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">11</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">18</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">16</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">11</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">15</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">16</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">9</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">11</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">15</matiere>
+<matiere Nom="Management de projet">13</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000775">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">9</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">15</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">20</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">15</matiere>
+<matiere Nom="Programmation systèmes">17</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">15</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">17</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">19</matiere>
+<matiere Nom="Technique algorithmique avancée">13</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">9</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007042">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">9</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">20</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">19</matiere>
+<matiere Nom="IHM">17</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">15</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">9</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">17</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">13</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001439">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">18</matiere>
+<matiere Nom="XML">18</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">19</matiere>
+<matiere Nom="IHM">12</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">13</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">8</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">15</matiere>
+<matiere Nom="Techniques de communication">16</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">13</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">16</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">10</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">13</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19002131">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">12</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">8</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">19</matiere>
+<matiere Nom="IHM">14</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">14</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">15</matiere>
+<matiere Nom="Programmation systèmes">8</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">16</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">8</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">8</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">20</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">14</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">9</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000780">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">8</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">14</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">12</matiere>
+<matiere Nom="Programmation systèmes">20</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">15</matiere>
+<matiere Nom="Techniques de communication">20</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">14</matiere>
+<matiere Nom="Programmation en C#">16</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">15</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">10</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">10</matiere>
+<matiere Nom="Processus stochastique">11</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">15</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">15</matiere>
+<matiere Nom="Sécurité des systèmes">20</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">13</matiere>
+<matiere Nom="Management de projet">17</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20003925">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">14</matiere>
+<matiere Nom="XML">13</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">12</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">17</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">19</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">19</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">19</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">20</matiere>
+<matiere Nom="Processus stochastique">19</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">18</matiere>
+<matiere Nom="Technique algorithmique avancée">12</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">12</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">20</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19006658">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">18</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">15</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">16</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">12</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">8</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">9</matiere>
+<matiere Nom="Techniques de communication">9</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">20</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">8</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">13</matiere>
+<matiere Nom="Processus stochastique">19</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">20</matiere>
+<matiere Nom="Technique algorithmique avancée">17</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">18</matiere>
+<matiere Nom="Sécurité des systèmes">17</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000755">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">13</matiere>
+<matiere Nom="XML">12</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">19</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">12</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">9</matiere>
+<matiere Nom="Programmation systèmes">10</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">14</matiere>
+<matiere Nom="Techniques de communication">10</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">19</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">8</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">20</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">18</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">13</matiere>
+<matiere Nom="Management de projet">12</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000716">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">14</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">10</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">8</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">17</matiere>
+<matiere Nom="Programmation systèmes">8</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">18</matiere>
+<matiere Nom="Techniques de communication">15</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">17</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">11</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">13</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">11</matiere>
+<matiere Nom="Technique algorithmique avancée">16</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">14</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="18008815">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">10</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">13</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">14</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">8</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">14</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">18</matiere>
+<matiere Nom="Technique algorithmique avancée">13</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">10</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20006989">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">14</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">16</matiere>
+<matiere Nom="IHM">14</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">16</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">11</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">8</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">15</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">20</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">19</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">18</matiere>
+<matiere Nom="Management de projet">13</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007067">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">17</matiere>
+<matiere Nom="XML">15</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">20</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">15</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">20</matiere>
+<matiere Nom="Programmation en C#">15</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">20</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">16</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">10</matiere>
+<matiere Nom="Sécurité des systèmes">8</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001413">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">20</matiere>
+<matiere Nom="XML">9</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">13</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">14</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">13</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">18</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">17</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">14</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">8</matiere>
+<matiere Nom="Processus stochastique">11</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">17</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">11</matiere>
+<matiere Nom="Sécurité des systèmes">11</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">18</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="17004026">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">15</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">9</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">18</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">12</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">12</matiere>
+<matiere Nom="Programmation systèmes">20</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">10</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">11</matiere>
+<matiere Nom="Technique algorithmique avancée">14</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000759">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">10</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">9</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">15</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">11</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">9</matiere>
+<matiere Nom="Programmation systèmes">11</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">10</matiere>
+<matiere Nom="Techniques de communication">20</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">17</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">15</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">13</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">20</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19005693">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">12</matiere>
+<matiere Nom="XML">11</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">17</matiere>
+<matiere Nom="IHM">10</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">17</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">9</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">14</matiere>
+<matiere Nom="Techniques de communication">20</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">11</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">13</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">12</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">13</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">14</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000777">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">9</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">13</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">16</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">15</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">9</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">9</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">13</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">13</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">20</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">18</matiere>
+<matiere Nom="Sécurité des systèmes">16</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">15</matiere>
+<matiere Nom="Management de projet">9</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19005656">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">13</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">11</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">12</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">14</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">8</matiere>
+<matiere Nom="Programmation systèmes">17</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">18</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">16</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">18</matiere>
+<matiere Nom="Sécurité des systèmes">8</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">16</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002433">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">12</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">14</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">17</matiere>
+<matiere Nom="IHM">11</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">13</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">18</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">9</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">12</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">18</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">11</matiere>
+<matiere Nom="Technique algorithmique avancée">13</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">13</matiere>
+<matiere Nom="Sécurité des systèmes">15</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002532">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">18</matiere>
+<matiere Nom="XML">16</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">11</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">12</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">11</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">17</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">16</matiere>
+<matiere Nom="Programmation en C#">12</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">12</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">9</matiere>
+<matiere Nom="Technique algorithmique avancée">13</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">15</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000763">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">20</matiere>
+<matiere Nom="XML">16</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">9</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">14</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">14</matiere>
+<matiere Nom="IHM">14</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">12</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">19</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">18</matiere>
+<matiere Nom="Programmation systèmes">10</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">10</matiere>
+<matiere Nom="Techniques de communication">11</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">12</matiere>
+<matiere Nom="Programmation en C#">9</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">12</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">9</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">14</matiere>
+<matiere Nom="Sécurité des systèmes">14</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">9</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000740">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">13</matiere>
+<matiere Nom="XML">12</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">19</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">18</matiere>
+<matiere Nom="IHM">18</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">10</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">12</matiere>
+<matiere Nom="Programmation systèmes">14</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">15</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">14</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">13</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">20</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">12</matiere>
+<matiere Nom="Technique algorithmique avancée">9</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">20</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002137">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">14</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">20</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">15</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">8</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">15</matiere>
+<matiere Nom="Programmation en C#">14</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">13</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">12</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">10</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">15</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">20</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">15</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20006985">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">19</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">20</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">11</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">8</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">17</matiere>
+<matiere Nom="Programmation systèmes">19</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">10</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">19</matiere>
+<matiere Nom="Programmation en C#">15</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">9</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">19</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">13</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">16</matiere>
+<matiere Nom="Management de projet">10</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002554">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">9</matiere>
+<matiere Nom="XML">15</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">11</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">9</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">10</matiere>
+<matiere Nom="Techniques de communication">15</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">13</matiere>
+<matiere Nom="Programmation en C#">14</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">11</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">16</matiere>
+<matiere Nom="Processus stochastique">14</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">16</matiere>
+<matiere Nom="Technique algorithmique avancée">19</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">9</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">9</matiere>
+<matiere Nom="Management de projet">11</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20009742">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">10</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">14</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">16</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">20</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">16</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">17</matiere>
+<matiere Nom="Programmation systèmes">19</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">16</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">16</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">10</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">10</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">16</matiere>
+<matiere Nom="Technique algorithmique avancée">9</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">19</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">15</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19006706">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">19</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">12</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">17</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">8</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">10</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">11</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">15</matiere>
+<matiere Nom="Processus stochastique">14</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">10</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">15</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20006930">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">20</matiere>
+<matiere Nom="XML">18</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">9</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">17</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">12</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">12</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">14</matiere>
+<matiere Nom="Programmation en C#">15</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">13</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">9</matiere>
+<matiere Nom="Technique algorithmique avancée">11</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">15</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">19</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000754">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">17</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">9</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">12</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">10</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">8</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">8</matiere>
+<matiere Nom="Techniques de communication">13</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">14</matiere>
+<matiere Nom="Programmation en C#">11</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">19</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">18</matiere>
+<matiere Nom="Technique algorithmique avancée">8</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">16</matiere>
+<matiere Nom="Sécurité des systèmes">14</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">16</matiere>
+<matiere Nom="Management de projet">14</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19002804">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">10</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">17</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">14</matiere>
+<matiere Nom="IHM">15</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">18</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">14</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">11</matiere>
+<matiere Nom="Programmation systèmes">19</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">9</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">9</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">9</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">20</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">11</matiere>
+<matiere Nom="Technique algorithmique avancée">18</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">13</matiere>
+<matiere Nom="Sécurité des systèmes">8</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">8</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19001375">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">17</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">10</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">12</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">9</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">10</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">8</matiere>
+<matiere Nom="Programmation systèmes">16</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">13</matiere>
+<matiere Nom="Techniques de communication">19</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">10</matiere>
+<matiere Nom="Programmation en C#">16</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">16</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">10</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">20</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">17</matiere>
+<matiere Nom="Technique algorithmique avancée">12</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">19</matiere>
+<matiere Nom="Sécurité des systèmes">17</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">10</matiere>
+<matiere Nom="Management de projet">20</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000731">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">8</matiere>
+<matiere Nom="XML">18</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">17</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">10</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">16</matiere>
+<matiere Nom="Programmation systèmes">10</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">11</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">19</matiere>
+<matiere Nom="Programmation en C#">9</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">18</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">15</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">9</matiere>
+<matiere Nom="Processus stochastique">14</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">13</matiere>
+<matiere Nom="Technique algorithmique avancée">15</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">17</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">9</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000513">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">16</matiere>
+<matiere Nom="XML">10</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">10</matiere>
+<matiere Nom="IHM">8</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">19</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">19</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">20</matiere>
+<matiere Nom="Techniques de communication">12</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">9</matiere>
+<matiere Nom="Programmation en C#">20</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">19</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">14</matiere>
+<matiere Nom="Processus stochastique">12</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">17</matiere>
+<matiere Nom="Technique algorithmique avancée">15</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">10</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">8</matiere>
+<matiere Nom="Management de projet">16</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20007695">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">10</matiere>
+<matiere Nom="XML">20</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">20</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">18</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">9</matiere>
+<matiere Nom="IHM">19</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">13</matiere>
+<matiere Nom="Programmation systèmes">9</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">19</matiere>
+<matiere Nom="Techniques de communication">8</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">10</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">10</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">20</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">11</matiere>
+<matiere Nom="Processus stochastique">11</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">20</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">8</matiere>
+<matiere Nom="Sécurité des systèmes">16</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">12</matiere>
+<matiere Nom="Management de projet">8</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="19006284">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">18</matiere>
+<matiere Nom="XML">17</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">18</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">18</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">20</matiere>
+<matiere Nom="IHM">18</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">18</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">19</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">20</matiere>
+<matiere Nom="Programmation systèmes">18</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">17</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">18</matiere>
+<matiere Nom="Programmation en C#">17</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">17</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">18</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">17</matiere>
+<matiere Nom="Processus stochastique">17</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">17</matiere>
+<matiere Nom="Technique algorithmique avancée">17</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">17</matiere>
+<matiere Nom="Sécurité des systèmes">17</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">17</matiere>
+<matiere Nom="Management de projet">17</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000721">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">12</matiere>
+<matiere Nom="XML">14</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">8</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">12</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">15</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">10</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">13</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">12</matiere>
+<matiere Nom="Programmation systèmes">12</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">17</matiere>
+<matiere Nom="Techniques de communication">19</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">8</matiere>
+<matiere Nom="Programmation en C#">19</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">20</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">19</matiere>
+<matiere Nom="Processus stochastique">18</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">18</matiere>
+<matiere Nom="Technique algorithmique avancée">9</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">9</matiere>
+<matiere Nom="Sécurité des systèmes">14</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">18</matiere>
+<matiere Nom="Management de projet">13</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20002123">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">9</matiere>
+<matiere Nom="XML">13</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">16</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">17</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">16</matiere>
+<matiere Nom="IHM">13</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">19</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">17</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">17</matiere>
+<matiere Nom="Programmation systèmes">10</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">18</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">19</matiere>
+<matiere Nom="Programmation en C#">14</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">19</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">16</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">16</matiere>
+<matiere Nom="Processus stochastique">16</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">15</matiere>
+<matiere Nom="Technique algorithmique avancée">15</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">12</matiere>
+<matiere Nom="Sécurité des systèmes">15</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">13</matiere>
+<matiere Nom="Management de projet">19</matiere>
+</module>
+</Etudiant>
+<Etudiant CNE="20000491">
+<module code="GINF30">
+<matiere Nom="Programmation Orientée Objet : Java">15</matiere>
+<matiere Nom="XML">8</matiere>
+</module>
+<module code="GINF31">
+<matiere Nom="Assurance contrôle qualité (ISO 9001)">13</matiere>
+<matiere Nom="Cycle de Vie Logiciel et Méthodes agiles">11</matiere>
+</module>
+<module code="GINF32">
+<matiere Nom="Modélisation orientée objet UML">19</matiere>
+<matiere Nom="IHM">9</matiere>
+</module>
+<module code="GINF33">
+<matiere Nom="Optimisation et Qualité de Base de données">9</matiere>
+<matiere Nom="Administration et Sécurité des Bases de données">11</matiere>
+</module>
+<module code="GINF34">
+<matiere Nom="Administration systèmes">10</matiere>
+<matiere Nom="Programmation systèmes">13</matiere>
+</module>
+<module code="GINF341">
+<matiere Nom="Anglais professionnel">12</matiere>
+<matiere Nom="Techniques de communication">14</matiere>
+</module>
+<module code="GINF35">
+<matiere Nom="Introduction à J2EE">10</matiere>
+<matiere Nom="Programmation en C#">20</matiere>
+</module>
+<module code="GINF36">
+<matiere Nom="Gestion des données complexes">12</matiere>
+<matiere Nom="Cloud Computing &amp; Infogérance">13</matiere>
+</module>
+<module code="GINF37">
+<matiere Nom="Vision numérique">8</matiere>
+<matiere Nom="Processus stochastique">8</matiere>
+</module>
+<module code="GINF38">
+<matiere Nom="Programmation déclarative">14</matiere>
+<matiere Nom="Technique algorithmique avancée">20</matiere>
+</module>
+<module code="GINF39">
+<matiere Nom="Cryptographie">20</matiere>
+<matiere Nom="Sécurité des systèmes">18</matiere>
+</module>
+<module code="GINF391">
+<matiere Nom="Economie 2 &amp; comptabilité 2">20</matiere>
+<matiere Nom="Management de projet">18</matiere>
+</module>
+</Etudiant>
+</notes>
+

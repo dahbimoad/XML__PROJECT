@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="Etudiant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstName" type="xs:string"/>
+                <xs:element name="lastName" type="xs:string"/>
+                <xs:element name="Naissance" type="DateType"/>
+                <xs:element name="Ville" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="CNE" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="DateType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{2}/\d{2}/\d{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

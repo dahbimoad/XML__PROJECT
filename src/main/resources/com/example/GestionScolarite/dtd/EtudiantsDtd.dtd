@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!ELEMENT Etudiants (Etudiant+)>
+  
+  <!ELEMENT Etudiant (firstName, lastName, Naissance, Ville)>
+  <!ATTLIST Etudiant
+    CNE CDATA #REQUIRED
+  >
+
+  <!ELEMENT firstName (#PCDATA)>
+  <!ELEMENT lastName (#PCDATA)>
+  <!ELEMENT Naissance (#PCDATA)>
+  <!ELEMENT Ville (#PCDATA)>

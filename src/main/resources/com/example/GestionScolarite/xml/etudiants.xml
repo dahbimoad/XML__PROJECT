@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="../XSD/EtudiantdsXsd.xsd.xsd">
+  <Etudiant CNE="20000773">
+    <firstName>ABBAD</firstName>
+    <lastName>ABDELOUAHED</lastName>
+    <Naissance>20/02/1999</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19001211">
+    <firstName>ABDELLOUHAB</firstName>
+    <lastName>SOUFIANE</lastName>
+    <Naissance>16/12/2001</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19001137">
+    <firstName>ABOUELKASEM</firstName>
+    <lastName>KENZA</lastName>
+    <Naissance>28/02/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000734">
+    <firstName>AHMYTTOU</firstName>
+    <lastName>AYA</lastName>
+    <Naissance>13/07/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000761">
+    <firstName>ALLAM</firstName>
+    <lastName>ELARBI</lastName>
+    <Naissance>21/09/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19001276">
+    <firstName>AMAL</firstName>
+    <lastName>TAIBIIMMRA</lastName>
+    <Naissance>26/12/2000</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20001244">
+    <firstName>ANASS</firstName>
+    <lastName>ELouahabi</lastName>
+    <Naissance>27/05/2002</Naissance>
+    <Ville>Larache</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000493">
+    <firstName>ARIB</firstName>
+    <lastName>AYMANE</lastName>
+    <Naissance>09/01/2003</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20006988">
+    <firstName>AZZMAN</firstName>
+    <lastName>NORELIMANE</lastName>
+    <Naissance>02/08/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20007078">
+    <firstName>AZZOUZ</firstName>
+    <lastName>CHAIMAE</lastName>
+    <Naissance>03/01/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000758">
+    <firstName>BENIMRAN</firstName>
+    <lastName>AHLAM</lastName>
+    <Naissance>25/02/2003</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000757">
+    <firstName>BERKOUKT</firstName>
+    <lastName>AMINE</lastName>
+    <Naissance>25/02/2003</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19002165">
+    <firstName>BIGAGANE</firstName>
+    <lastName>ABDELLAH</lastName>
+    <Naissance>13/01/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000730">
+    <firstName>BOUNOUAR</firstName>
+    <lastName>MOHAMMED</lastName>
+    <Naissance>05/08/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20002424">
+    <firstName>BOUSSAID</firstName>
+    <lastName>MERYEME</lastName>
+    <Naissance>27/10/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000771">
+    <firstName>CHAIBERRAS</firstName>
+    <lastName>SOUHAIL</lastName>
+    <Naissance>19/11/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20007025">
+    <firstName>DAHBI</firstName>
+    <lastName>MOAD</lastName>
+    <Naissance>13/07/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20007161">
+    <firstName>ECHCHRIKI</firstName>
+    <lastName>IMAD</lastName>
+    <Naissance>17/04/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20004313">
+    <firstName>ELADNANI</firstName>
+    <lastName>ELMEHDI</lastName>
+    <Naissance>07/06/2001</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20007051">
+    <firstName>ELAIDIIDRISSI</firstName>
+    <lastName>ACHRAF</lastName>
+    <Naissance>21/02/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20002432">
+    <firstName>ELAOUAD</firstName>
+    <lastName>OUAAIL</lastName>
+    <Naissance>08/02/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20002251">
+    <firstName>ELBAKALI</firstName>
+    <lastName>MALAK</lastName>
+    <Naissance>08/11/2001</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20002670">
+    <firstName>ELBATTEOUI</firstName>
+    <lastName>OUSSAMA</lastName>
+    <Naissance>15/11/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000742">
+    <firstName>ELGARTI</firstName>
+    <lastName>YASSINE</lastName>
+    <Naissance>28/05/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000741">
+    <firstName>ELHARRAK</firstName>
+    <lastName>MEHDI</lastName>
+    <Naissance>08/07/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000775">
+    <firstName>ELMATNI</firstName>
+    <lastName>ADAM</lastName>
+    <Naissance>01/10/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20007042">
+    <firstName>ELOTMANI</firstName>
+    <lastName>SARA</lastName>
+    <Naissance>20/09/2001</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19001439">
+    <firstName>FAHD</firstName>
+    <lastName>RIHAB</lastName>
+    <Naissance>27/02/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19002131">
+    <firstName>FARIS</firstName>
+    <lastName>MUSTAPHA</lastName>
+    <Naissance>29/01/2001</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20000780">
+    <firstName>GHAZAL</firstName>
+    <lastName>NAJOUA</lastName>
+    <Naissance>09/08/2002</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="20003925">
+    <firstName>GUEZALA</firstName>
+    <lastName>MOHAMED</lastName>
+    <Naissance>03/04/2003</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+  <Etudiant CNE="19006658">
+    <firstName>HAMIDI</firstName>
+    <lastName>KENZA</lastName>
+    <Naissance>23/03/1999</Naissance>
+    <Ville>Tanger</Ville>
+  </Etudiant>
+</Etudiants>

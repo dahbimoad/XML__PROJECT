@@ -1,0 +1,13 @@
+<!ELEMENT notes (Etudiant+)>
+
+<!ELEMENT Etudiant (module+)>
+<!ATTLIST Etudiant
+    CNE CDATA #REQUIRED>
+
+<!ELEMENT module (matiere+)>
+<!ATTLIST module
+    code CDATA #REQUIRED>
+
+<!ELEMENT matiere (#PCDATA)>
+<!ATTLIST matiere
+    Nom CDATA #REQUIRED>

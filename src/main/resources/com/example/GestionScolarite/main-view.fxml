@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox styleClass="root" stylesheets="@css/style.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.GestionScolarite.controllers.MainController">
+
+    <!-- Header -->
+    <VBox alignment="CENTER" styleClass="header">
+        <Label text="ENSA Tanger" styleClass="school-name"/>
+        <Label text="Gestion de Notes et Scolarité" styleClass="title"/>
+        <Label text="GINF2" styleClass="subtitle"/>
+    </VBox>
+
+    <!-- Main Content -->
+    <TabPane styleClass="main-tabs">
+        <!-- Documents Generation Tab -->
+        <Tab text="Gestion des Documents" closable="false">
+            <ScrollPane fitToWidth="true" styleClass="content-area">
+                <VBox spacing="30">
+                    <!-- First Row -->
+                    <HBox spacing="20" alignment="CENTER">
+                        <!-- Notes Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Relevé de Notes" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="AffichageNotes" text="Classe"/>
+                                    <CheckBox fx:id="StudentAffichage" text="Etudiant"/>
+                                </HBox>
+                                <TextField fx:id="AffichageCne" promptText="CNE" styleClass="input-field"/>
+                                <Button onAction="#HandleAffichage" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+
+                        <!-- Inscription Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Attestation d'Inscription" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="pdfinsc" text="PDF"/>
+                                    <CheckBox fx:id="htmlinsc" text="HTML"/>
+                                </HBox>
+                                <TextField fx:id="InscCne" promptText="CNE" styleClass="input-field"/>
+                                <Button onAction="#GenererInsc" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+
+                        <!-- Reussite Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Attestation de Réussite" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="pdfreu" text="PDF"/>
+                                    <CheckBox fx:id="htmlreu" text="HTML"/>
+                                </HBox>
+                                <TextField fx:id="ReuCne" promptText="CNE" styleClass="input-field"/>
+                                <Button onAction="#GenererReu" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+                    </HBox>
+
+                    <!-- Second Row -->
+                    <HBox spacing="20" alignment="CENTER">
+                        <!-- EDT Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Emploi du Temps" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="EDTHTMLChoice" text="HTML"/>
+                                    <CheckBox fx:id="EDTPDFChoice" text="PDF"/>
+                                    <CheckBox fx:id="EDTExcelChoice" text="Excel"/>
+                                </HBox>
+                                <Button onAction="#HandleGeneration" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+
+                        <!-- Carte Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Carte d'Étudiant" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="pdfcarte" text="PDF"/>
+                                    <CheckBox fx:id="htmlcarte" text="HTML"/>
+                                </HBox>
+                                <TextField fx:id="CarteCne" promptText="CNE" styleClass="input-field"/>
+                                <Button onAction="#GenererCarte" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+
+                        <!-- Modules Section -->
+                        <VBox styleClass="section-card" spacing="15">
+                            <Label text="Affichage par Module" styleClass="section-title"/>
+                            <VBox styleClass="option-group" spacing="10">
+                                <HBox spacing="20">
+                                    <CheckBox fx:id="tousmod" text="Tous"/>
+                                    <CheckBox fx:id="unseulmod" text="Un seul"/>
+                                </HBox>
+                                <TextField fx:id="CodeModule" promptText="Code Module" styleClass="input-field"/>
+                                <Button onAction="#AffichageMod" text="Générer" styleClass="action-button"/>
+                            </VBox>
+                        </VBox>
+                    </HBox>
+                </VBox>
+            </ScrollPane>
+        </Tab>
+
+        <!-- Data View Tab -->
+        <Tab text="Consultation des Données" closable="false">
+            <VBox spacing="20" styleClass="data-view">
+                <HBox spacing="20" alignment="CENTER">
+                    <!-- Students List Section -->
+                    <VBox styleClass="data-card">
+                        <Label text="Liste des Étudiants" styleClass="data-title"/>
+                        <TextField fx:id="studentSearchField" promptText="Rechercher un étudiant..." styleClass="search-field"/>
+                        <TableView fx:id="studentTable" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="cneColumn" text="CNE" prefWidth="120"/>
+                                <TableColumn fx:id="firstNameColumn" text="Prénom" prefWidth="150"/>
+                                <TableColumn fx:id="lastNameColumn" text="Nom" prefWidth="150"/>
+                            </columns>
+                        </TableView>
+                    </VBox>
+
+                    <!-- Modules List Section -->
+                    <VBox styleClass="data-card">
+                        <Label text="Liste des Modules" styleClass="data-title"/>
+                        <TextField fx:id="moduleSearchField" promptText="Rechercher un module..." styleClass="search-field"/>
+                        <TableView fx:id="moduleTable" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="codeColumn" text="Code" prefWidth="120"/>
+                                <TableColumn fx:id="nameColumn" text="Nom" prefWidth="300"/>
+                            </columns>
+                        </TableView>
+                    </VBox>
+                </HBox>
+            </VBox>
+        </Tab>
+    </TabPane>
+
+</VBox>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="../XSD/ModulesXsd.xsd">
+        <module code="GINF30">
+            <Designation>Programmation Orientée Objet &amp; XML</Designation>
+            <matiere>
+                <responsable> El Haddad Mohamed </responsable>
+                <matiereName>Programmation Orientée Objet : Java</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Lachkar Abdelmonaime </responsable>
+                <matiereName>XML</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF31">
+            <Designation>Qualité &amp; approche processus</Designation>
+            <matiere>
+                <responsable> Rahali Azzouzi Saida </responsable>
+                <matiereName>Assurance contrôle qualité (ISO 9001)</matiereName>
+            </matiere>
+            <matiere>
+                <responsable>  Badir Hassan </responsable>
+                <matiereName>Cycle de Vie Logiciel et Méthodes agiles</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF32">
+            <Designation>Modélisation orientée objet et IHM</Designation>
+            <matiere>
+                <responsable> El Alami Mohamed</responsable>
+                <matiereName>Modélisation orientée objet UML</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> El Alami Mohamed </responsable>
+                <matiereName>IHM</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF33">
+            <Designation>Bases de données avancées I</Designation>
+            <matiere>
+                <responsable>  Fissoune Rachida </responsable>
+                <matiereName>Optimisation et Qualité de Base de données</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Badir Hassan </responsable>
+                <matiereName>Administration et Sécurité des Bases de données</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF34">
+            <Designation>Administration et programmation système</Designation>
+            <matiere>
+                <responsable> Amechnoue Khalid </responsable>
+                <matiereName>Administration systèmes</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Amechnoue Khalid </responsable>
+                <matiereName>Programmation systèmes</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF341">
+            <Designation>Langue &amp; communication 1</Designation>
+            <matiere>
+                <responsable> El boukidi Salma </responsable>
+                <matiereName>Anglais professionnel</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Zaamoumi Amal </responsable>
+                <matiereName>Techniques de communication</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF35">
+            <Designation>Technologies distribuées</Designation>
+            <matiere>
+                <responsable> Bolmokadem Houda </responsable>
+                <matiereName>Introduction à J2EE</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> El Ghailani Mohamed </responsable>
+                <matiereName>Programmation en C#</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF36">
+            <Designation>Bases de données avancées II &amp; Cloud</Designation>
+            <matiere>
+                <responsable> Badir Hassan </responsable>
+                <matiereName>Gestion des données complexes</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Badir Hassan </responsable>
+                <matiereName>Cloud Computing &amp; Infogérance</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF37">
+            <Designation>Traitement de l'image</Designation>
+            <matiere>
+                <responsable> Lachkar Abdelmonaime </responsable>
+                <matiereName>Vision numérique</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Drissi Ahmed </responsable>
+                <matiereName>Processus stochastique</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF38">
+            <Designation>Programmation déclarative et Techniques algorithmiques Avancées</Designation>
+            <matiere>
+                <responsable> El Alami Mohamed </responsable>
+                <matiereName>Programmation déclarative</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> M. Gouy </responsable>
+                <matiereName>Technique algorithmique avancée</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF39">
+            <Designation>Sécurité &amp; cryptographie</Designation>
+            <matiere>
+                <responsable> Lazaar Saida </responsable>
+                <matiereName>Cryptographie</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Lazaar Saida </responsable>
+                <matiereName>Sécurité des systèmes</matiereName>
+            </matiere>
+        </module>
+        <module code="GINF391">
+            <Designation>Management de l'entreprise 2</Designation>
+            <matiere>
+                <responsable> Eddebagh Mohamed </responsable>
+                <matiereName>Economie 2 &amp; comptabilité 2</matiereName>
+            </matiere>
+            <matiere>
+                <responsable> Rahali Azzouzi Saida </responsable>
+                <matiereName>Management de projet</matiereName>
+            </matiere>
+        </module>
+    </modules>

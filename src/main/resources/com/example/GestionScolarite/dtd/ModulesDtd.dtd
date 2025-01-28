@@ -1,0 +1,12 @@
+<!ELEMENT modules (module+)>
+
+<!ELEMENT module (Designation, matiere+)>
+<!ATTLIST module
+    code CDATA #REQUIRED
+>
+
+<!ELEMENT Designation (#PCDATA)>
+
+<!ELEMENT matiere (responsable, matiereName)>
+<!ELEMENT responsable (#PCDATA)>
+<!ELEMENT matiereName (#PCDATA)>
