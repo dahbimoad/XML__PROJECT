@@ -76,13 +76,21 @@ public class MainController {
         setupSearch();
     }
     private void setupStudentTable() {
+    if (cneColumn != null) {
         cneColumn.setCellValueFactory(data -> data.getValue().cneProperty());
+    }
+    if (firstNameColumn != null) {
         firstNameColumn.setCellValueFactory(data -> data.getValue().firstNameProperty());
+    }
+    if (lastNameColumn != null) {
         lastNameColumn.setCellValueFactory(data -> data.getValue().lastNameProperty());
+    }
 
-        filteredStudents = new FilteredList<>(students, p -> true);
+    filteredStudents = new FilteredList<>(students, p -> true);
+    if (studentTable != null) {
         studentTable.setItems(filteredStudents);
     }
+}
 
     private void setupModuleTable() {
         codeColumn.setCellValueFactory(data -> data.getValue().codeProperty());

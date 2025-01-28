@@ -8,18 +8,23 @@
 <VBox styleClass="root" stylesheets="@css/style.css"
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.GestionScolarite.controllers.MainController">
+      fx:controller="com.example.GestionScolarite.controllers.MainController"
+      spacing="20">
+
+    <padding>
+        <Insets top="30" right="40" bottom="30" left="40"/>
+    </padding>
 
     <!-- Header -->
-    <VBox alignment="CENTER" styleClass="header">
+    <VBox alignment="CENTER" styleClass="header" spacing="10">
         <Label text="ENSA Tanger" styleClass="school-name"/>
         <Label text="Gestion de Notes et Scolarité" styleClass="title"/>
         <Label text="GINF2" styleClass="subtitle"/>
     </VBox>
 
-    <!-- Main Content -->
-    <TabPane styleClass="main-tabs">
-        <!-- Documents Generation Tab -->
+    <!-- Tab Pane for Different Views -->
+    <TabPane>
+        <!-- Document Generation Tab -->
         <Tab text="Gestion des Documents" closable="false">
             <ScrollPane fitToWidth="true" styleClass="content-area">
                 <VBox spacing="30">
@@ -112,12 +117,24 @@
 
         <!-- Data View Tab -->
         <Tab text="Consultation des Données" closable="false">
-            <VBox spacing="20" styleClass="data-view">
+            <VBox spacing="20">
+                <!-- Search Fields -->
                 <HBox spacing="20" alignment="CENTER">
-                    <!-- Students List Section -->
-                    <VBox styleClass="data-card">
-                        <Label text="Liste des Étudiants" styleClass="data-title"/>
-                        <TextField fx:id="studentSearchField" promptText="Rechercher un étudiant..." styleClass="search-field"/>
+                    <VBox spacing="10" HBox.hgrow="ALWAYS">
+                        <Label text="Rechercher des étudiants"/>
+                        <TextField fx:id="studentSearchField" promptText="Rechercher un étudiant..."/>
+                    </VBox>
+                    <VBox spacing="10" HBox.hgrow="ALWAYS">
+                        <Label text="Rechercher des modules"/>
+                        <TextField fx:id="moduleSearchField" promptText="Rechercher un module..."/>
+                    </VBox>
+                </HBox>
+
+                <!-- Tables -->
+                <HBox spacing="20">
+                    <!-- Students Table -->
+                    <VBox spacing="10" HBox.hgrow="ALWAYS">
+                        <Label text="Liste des Étudiants"/>
                         <TableView fx:id="studentTable" VBox.vgrow="ALWAYS">
                             <columns>
                                 <TableColumn fx:id="cneColumn" text="CNE" prefWidth="120"/>
@@ -127,10 +144,9 @@
                         </TableView>
                     </VBox>
 
-                    <!-- Modules List Section -->
-                    <VBox styleClass="data-card">
-                        <Label text="Liste des Modules" styleClass="data-title"/>
-                        <TextField fx:id="moduleSearchField" promptText="Rechercher un module..." styleClass="search-field"/>
+                    <!-- Modules Table -->
+                    <VBox spacing="10" HBox.hgrow="ALWAYS">
+                        <Label text="Liste des Modules"/>
                         <TableView fx:id="moduleTable" VBox.vgrow="ALWAYS">
                             <columns>
                                 <TableColumn fx:id="codeColumn" text="Code" prefWidth="120"/>
@@ -142,5 +158,4 @@
             </VBox>
         </Tab>
     </TabPane>
-
 </VBox>
