@@ -1,85 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:fo="http://www.w3.org/1999/XSL/Format" exclude-result-prefixes="fo"
-    xmlns:date="http://exslt.org/dates-and-times">
-    <xsl:param name="cne"/>
-    <xsl:template match="/">
-        <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
-            <fo:layout-master-set>
-                <fo:simple-page-master master-name="simpleCard" page-height="8cm" page-width="13.5cm">
-                    <fo:region-body margin="0cm"/>
-                    <fo:region-before extent="0cm"/>
-                    <fo:region-after extent="0cm"/>
-                </fo:simple-page-master>
-            </fo:layout-master-set>
-            <fo:page-sequence master-reference="simpleCard">
-                <fo:flow flow-name="xsl-region-body">
-                    <!-- Removed background image and using solid color background -->
-                    <fo:block-container background-color="#f8f9fa" height="100%" width="100%">
-                    <fo:block>
-                        <fo:table height="1cm" width="100%" margin-top="5mm">
-                            <fo:table-column column-width="10%"/>
-                            <fo:table-column column-width="80%"/>
-                            <fo:table-column column-width="10%"/>
-                            <fo:table-body>
-                                <fo:table-cell column-number="1" text-align="right" margin-left="3cm">
-                                    <fo:block>
-                                        <fo:external-graphic height="0.8cm" width="2cm"
-                                            src="src/main/resources/com/example/gestionscolarite/images/ensa_tanger.png"/>
-                                    </fo:block>
-                                </fo:table-cell>
-                                <fo:table-cell column-number="2">
-                                    <fo:block-container space-before="1cm" width="100%" font-size="7px" text-align="center">
-                                        <fo:block>Royaume Du Maroc</fo:block>
-                                        <fo:block>Université Abdelmalek Essadi</fo:block>
-                                        <fo:block>Ecole nationale des sciences appliquées de Tanger</fo:block>
-                                    </fo:block-container>
-                                </fo:table-cell>
-                                <fo:table-cell text-align="center" column-number="3" margin-right="5cm">
-                                    <fo:block>
-                                        <fo:external-graphic height="0.8cm" width="2cm"
-                                            src="src/main/resources/com/example/gestionscolarite/images/logoUAE.png"/>
-                                    </fo:block>
-                                </fo:table-cell>
-                            </fo:table-body>
-                        </fo:table>
-                    </fo:block>
-                    <fo:block border-bottom-width="1px" width="5cm" border-bottom-style="solid" border-color="#031599" margin-top="7mm"/>
-                    <fo:block space-before="0.2cm" font-size="9px" font-weight="bold" font-family="Arial, Helvetica, sans-serif" text-align="center">
-                        Carte d'Étudiant
-                    </fo:block>
+<xsl:stylesheet version="2.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    exclude-result-prefixes="fo">
 
-                    <fo:table space-before="0.5cm" width="100%">
-                        <fo:table-column column-width="25%"/>
-                        <fo:table-column column-width="50%"/>
-                        <fo:table-column column-width="25%"/>
-                        <fo:table-body>
-                            <fo:table-cell column-number="1" margin-left="5mm">
-                                <fo:block>
-                                    <fo:external-graphic height="3cm" width="2.5cm"
-                                        src="src/main/resources/com/example/gestionscolarite/images/Unknown_person.jpg"/>
-                                </fo:block>
-                            </fo:table-cell>
-                            <fo:table-cell display-align="center" column-number="2">
-                                <fo:block-container space-before="0.5cm" font-size="9px" text-align="left">
-                                    <fo:block>Prénom: <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/firstName"/></fo:block>
-                                    <fo:block space-before="0.3cm">Nom: <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/lastName"/></fo:block>
-                                    <fo:block space-before="0.3cm">CNE: <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/@CNE"/></fo:block>
-                                    <fo:block space-before="0.3cm">Naissance: <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/Naissance"/></fo:block>
-                                </fo:block-container>
-                            </fo:table-cell>
-                            <fo:table-cell text-align="left" column-number="3">
-                                <fo:block space-start="4cm">
-                                    <fo:external-graphic height="3cm" width="1cm"
-                                        src="src/main/resources/com/example/gestionscolarite/images/qr_code.jpg"/>
-                                </fo:block>
-                            </fo:table-cell>
-                        </fo:table-body>
-                    </fo:table>
-                    <fo:block space-before="0.3cm" font-size="10px" text-align="center">Année universitaire 2024-2025</fo:block>
-                    </fo:block-container>
-                </fo:flow>
-            </fo:page-sequence>
-        </fo:root>
-    </xsl:template>
+  <xsl:param name="cne"/>
+
+  <xsl:template match="/">
+    <fo:root>
+      <fo:layout-master-set>
+        <!-- Increase page-height a bit to avoid automatic page break -->
+        <fo:simple-page-master master-name="card"
+            page-height="9cm"
+            page-width="13.5cm"
+            margin="0.5cm">
+          <fo:region-body margin="0cm"/>
+        </fo:simple-page-master>
+      </fo:layout-master-set>
+
+      <fo:page-sequence master-reference="card">
+        <fo:flow flow-name="xsl-region-body">
+          <!-- keep-together so all card content stays on one page -->
+          <fo:block keep-together="always">
+
+            <!-- Header with logos -->
+            <fo:table width="100%" table-layout="fixed" margin-bottom="0.2cm">
+              <fo:table-column column-width="2.5cm"/>
+              <fo:table-column column-width="7.5cm"/>
+              <fo:table-column column-width="2.5cm"/>
+              <fo:table-body>
+                <fo:table-row>
+                  <!-- ENSA Logo -->
+                  <fo:table-cell display-align="center">
+                    <fo:block>
+                      <fo:external-graphic
+                        src="url('src/main/resources/com/example/gestionscolarite/images/ensa_tanger.png')"
+                        content-width="2cm"
+                        content-height="2cm"
+                        scaling="uniform"/>
+                    </fo:block>
+                  </fo:table-cell>
+
+                  <!-- Title Text -->
+                  <fo:table-cell display-align="center">
+                    <fo:block text-align="center" font-size="8pt" line-height="1.2em">
+                      <fo:block font-weight="bold">ROYAUME DU MAROC</fo:block>
+                      <fo:block>UNIVERSITÉ ABDELMALEK ESSAÂDI</fo:block>
+                      <fo:block>ÉCOLE NATIONALE DES SCIENCES</fo:block>
+                      <fo:block>APPLIQUÉES DE TANGER</fo:block>
+                    </fo:block>
+                  </fo:table-cell>
+
+                  <!-- UAE Logo -->
+                  <fo:table-cell display-align="center">
+                    <fo:block>
+                      <fo:external-graphic
+                        src="url('src/main/resources/com/example/gestionscolarite/images/logoUAE.png')"
+                        content-width="2cm"
+                        content-height="2cm"
+                        scaling="uniform"/>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+              </fo:table-body>
+            </fo:table>
+
+            <!-- Blue Separator -->
+            <fo:block border-bottom="1pt solid #031599"/>
+
+            <!-- Card Title -->
+            <fo:block text-align="center"
+                      font-weight="bold"
+                      font-size="12pt"
+                      color="#031599"
+                      margin-top="0.2cm"
+                      margin-bottom="0.3cm">
+              Carte d'Étudiant
+            </fo:block>
+
+            <!-- Student Info Table -->
+            <fo:table width="100%" table-layout="fixed">
+              <fo:table-column column-width="3.5cm"/>
+              <fo:table-column column-width="5.5cm"/>
+              <fo:table-column column-width="3.5cm"/>
+              <fo:table-body>
+                <fo:table-row>
+                  <!-- Photo -->
+                  <fo:table-cell padding="0.2cm">
+                    <fo:block>
+                      <fo:external-graphic
+                        src="url('src/main/resources/com/example/gestionscolarite/images/Unknown_person.jpg')"
+                        content-width="2.8cm"
+                        content-height="3.0cm"
+                        scaling="uniform"/>
+                    </fo:block>
+                  </fo:table-cell>
+
+                  <!-- Student Details -->
+                  <fo:table-cell padding="0.2cm">
+                    <fo:block font-size="10pt" line-height="1.5em">
+                      <fo:block space-after="0.2cm">
+                        Prénom:
+                        <fo:inline font-weight="bold">
+                          <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/firstName"/>
+                        </fo:inline>
+                      </fo:block>
+                      <fo:block space-after="0.2cm">
+                        Nom:
+                        <fo:inline font-weight="bold">
+                          <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/lastName"/>
+                        </fo:inline>
+                      </fo:block>
+                      <fo:block space-after="0.2cm">
+                        CNE:
+                        <fo:inline font-weight="bold">
+                          <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/@CNE"/>
+                        </fo:inline>
+                      </fo:block>
+                      <fo:block>
+                        Naissance:
+                        <fo:inline font-weight="bold">
+                          <xsl:value-of select="/Etudiants/Etudiant[@CNE=$cne]/Naissance"/>
+                        </fo:inline>
+                      </fo:block>
+                    </fo:block>
+                  </fo:table-cell>
+
+                  <!-- QR Code -->
+                  <fo:table-cell padding="0.2cm">
+                    <fo:block>
+                      <fo:external-graphic
+                        src="url('src/main/resources/com/example/gestionscolarite/images/qr_code.jpg')"
+                        content-width="2.2cm"
+                        content-height="2.2cm"
+                        scaling="uniform"/>
+                    </fo:block>
+                  </fo:table-cell>
+                </fo:table-row>
+              </fo:table-body>
+            </fo:table>
+
+            <!-- Academic Year -->
+            <fo:block text-align="center"
+                      font-size="10pt"
+                      font-weight="bold"
+                      margin-top="0.2cm">
+              Année universitaire 2024-2025
+            </fo:block>
+          </fo:block>
+        </fo:flow>
+      </fo:page-sequence>
+    </fo:root>
+  </xsl:template>
 </xsl:stylesheet>
