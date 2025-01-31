@@ -1,93 +1,110 @@
-<html xmlns:emp="http://GINF2Emploi.org">
+<html>
     <head>
         <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <style>
-  table {
-    border-collapse: collapse;
-    width: 70%;
-    margin: 20px auto;
-  }
-
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-
-  td {
-    vertical-align: top;
-  }
-
-  .session-td {
-    border-width: 2px;
-    margin-bottom: 4px;
-  }
-
-  .td-cm {
-    background-color: #3498db;
-    border-color: #7f8c8d;
-    border-radius: 2%;
-  }
-
-  .td-tp {
-    background-color: #27ae60;
-    border-color: #27ae60;
-    border-radius: 2%;
-  }
-
-  .td-td {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
-    border-radius: 2%;
-  }
-
-  .footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .legend {
-    display: flex;
-    font-weight: bold;
-  }
-
-  .legend div {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-  }
-
-  .legend span {
-    margin-right : 20px;
-  }
-  h2 {
-    text-align: center;
-  }
-</style>
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+          }
+          th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+          .matiere-cell {
+            padding: 6px;
+            margin-bottom: 4px;
+            border-radius: 4px;
+          }
+          .cm { background-color: #3498db; color: white; }
+          .tp { background-color: #27ae60; color: white; }
+          .td { background-color: #e74c3c; color: white; }
+        </style>
     </head>
     <body>
-        <h2>EDT GINF2</h2>
+        <h1 style="text-align: center;">Emploi du temps GINF2</h1>
         <table>
-            <tr>
-                <th>Time</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Horaire</th><th>Lundi</th><th>Mardi</th><th>Mercredi</th><th>Jeudi</th><th>Vendredi</th><th>Samedi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>08:00</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>08:30</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>09:00-10:30</td><td>
+                        <div class="matiere-cell td">MODELISATION OR - EL ALAMI - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell cm">GESTION DES DONN - FISSOUNE - SALLE B20</div>
+                    </td><td>
+                        <div class="matiere-cell cm">PROGRAMMATION OR - EL HADDAD - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell cm">INTERFACE HOMME - EL ALAMI - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell cm">TECHN COMM - EL ALAMI - SALLE B19</div>
+                    </td><td></td>
+                </tr>
+                <tr>
+                    <td>11:00-12:30</td><td>
+                        <div class="matiere-cell cm">MODELISATION OR - EL ALAMI - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell tp">GESTION DES DONN - FISSOUNE - SALLE B20</div>
+                    </td><td>
+                        <div class="matiere-cell tp">PROGRAMMATION OR - EL HADDAD - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell td">INTERFACE HOMME - EL ALAMI - SALLE B19</div>
+                    </td><td>
+                        <div class="matiere-cell td">TECHN COMM - EL ALAMI - SALLE B19</div>
+                    </td><td></td>
+                </tr>
+                <tr>
+                    <td>13:00</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>13:30</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>14:00-15:30</td><td>
+                        <div class="matiere-cell cm">CYCLE DE VIE LO - BADIR - Salle B19</div>
+                    </td><td>
+                        <div class="matiere-cell tp">PROGRAMMATION SY - AMECHNOUE - SALLE B6</div>
+                    </td><td></td><td>
+                        <div class="matiere-cell cm">ESPAGNOLE - LAAMARTI - SALLE B22</div>
+                    </td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>16:00-17:30</td><td>
+                        <div class="matiere-cell cm">CYCLE DE VIE LO - BADIR - Salle B19</div>
+                    </td><td>
+                        <div class="matiere-cell tp">PROGRAMMATION SY - AMECHNOUE - SALLE B6</div>
+                    </td><td>
+                        <div class="matiere-cell cm">PROGRAMMATION SY - AMECHNOUE - SALLE B22</div>
+                    </td><td></td><td>
+                        <div class="matiere-cell cm">ASSURANCE CONTR - CHICHI - SALLE A7</div>
+                    </td><td></td>
+                </tr>
+                <tr>
+                    <td>18:00</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>18:30</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
         </table>
-        <div class="footer">
-            <div class="legend">
-                <div class="td-cm" style="width: 20px; height: 20px;"></div>
-                <span>CM</span>
-                <div class="td-tp" style="width: 20px; height: 20px;"></div>
-                <span>TP</span>
-                <div class="td-td" style="width: 20px; height: 20px;"></div>
-                <span>TD</span>
-            </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <p>
+                <strong>L&eacute;gende:</strong>
+            </p>
+            <span class="matiere-cell cm">CM</span><span class="matiere-cell tp">TP</span><span class="matiere-cell td">TD</span>
         </div>
     </body>
 </html>

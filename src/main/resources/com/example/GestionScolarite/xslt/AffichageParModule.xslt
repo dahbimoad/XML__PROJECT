@@ -17,7 +17,6 @@
                         </div>
                     </div>
                     <div class="logo-content" style=" direction: rtl;">
-                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/logoUAE.png" alt="Logo 1" class="logo"/>
                         <div class="arabic-content">
                             <p>المملكة المغربية</p>
                             <p>المدرسة الوطنية للعلوم التطبيقية بطنجة</p>
