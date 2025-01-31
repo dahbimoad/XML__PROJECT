@@ -1,26 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?><Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:emp="http://GINF2Emploi.org" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
-    <Styles>
-        <Style ss:ID="HeaderCell">
-            <Borders>
-                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-            </Borders>
-            <Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
-        </Style>
-        <Style ss:ID="BodyCell">
-            <Borders>
-                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-            </Borders>
-        </Style>
-    </Styles>
-    <Worksheet ss:Name="Sheet1">
-        <Table x:FullColumns="1" x:FullRows="1">
-            <Row>
-                <Cell ss:StyleID="HeaderCell">
-                    <Data ss:Type="String">Time</Data>
-                </Cell>
-            </Row>
-        </Table>
-    </Worksheet>
-</Workbook>
+<?xml version="1.0" encoding="UTF-8"?><ss:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <ss:Styles>
+        <ss:Style ss:ID="Header">
+            <ss:Font ss:Bold="1"/>
+            <ss:Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
+            <ss:Borders>
+                <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            </ss:Borders>
+        </ss:Style>
+        <ss:Style ss:ID="Cell">
+            <ss:Borders>
+                <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            </ss:Borders>
+        </ss:Style>
+    </ss:Styles>
+    <ss:Worksheet ss:Name="EDT">
+        <ss:Table>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Time</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Lundi</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Mardi</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Mercredi</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Jeudi</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Vendredi</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Header">
+                    <ss:Data ss:Type="String">Samedi</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">08:00</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">08:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">09:00-10:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">MODELISATION OR - TD -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">GESTION DES DONN - CM -  - FISSOUNE - SALLE B20</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">PROGRAMMATION OR - CM -  - EL HADDAD - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">INTERFACE HOMME - CM -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">TECHN COMM - CM -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">11:00-12:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">MODELISATION OR - CM -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">GESTION DES DONN - TP -  - FISSOUNE - SALLE B20</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">PROGRAMMATION OR - TP -  - EL HADDAD - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">INTERFACE HOMME - TD -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">TECHN COMM - TD -  - EL ALAMI - SALLE B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">13:00</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">13:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">14:00-15:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">CYCLE DE VIE LO - CM -  - BADIR - Salle B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">PROGRAMMATION SY - TP -  - AMECHNOUE - SALLE B6</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">ESPAGNOLE - CM -  - LAAMARTI - SALLE B22</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">16:00-17:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">CYCLE DE VIE LO - CM -  - BADIR - Salle B19</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">PROGRAMMATION SY - TP -  - AMECHNOUE - SALLE B6</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">PROGRAMMATION SY - CM -  - AMECHNOUE - SALLE B22</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">ASSURANCE CONTR - CM -  - CHICHI - SALLE A7</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">18:00</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String">18:30</ss:Data>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+                <ss:Cell ss:StyleID="Cell">
+                    <ss:Data ss:Type="String"/>
+                </ss:Cell>
+            </ss:Row>
+        </ss:Table>
+    </ss:Worksheet>
+</ss:Workbook>

@@ -9,7 +9,7 @@
         <html>
             <head>
                 <title>Class Results</title>
-                <link href="../CSS/styles1.css" rel="stylesheet" type="text/css"/>
+                <link href="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/css/stylesHTML.css" rel="stylesheet" type="text/css"/>
                 <style type="text/css">
                     .text-align-left {
                     text-align: left;
@@ -22,7 +22,7 @@
             <body>
                 <div class="logo-container">
                     <div class="logo-content">
-                        <img src="../images/ensa_tanger.png" alt="Logo 2" class="logo"/>
+                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/ensa_tanger.png" alt="Logo 2" class="logo"/>
 
                         <div class="french-content">
                             <p>ROYAUME DU MAROC</p>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="logo-content" style=" direction: rtl;">
-                        <img src="../images/logoUAE.png" alt="Logo 1" class="logo"/>
+                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/logoUAE.png" alt="Logo 1" class="logo"/>
    
                         <div class="arabic-content">
                             <p>المملكة المغربية</p>

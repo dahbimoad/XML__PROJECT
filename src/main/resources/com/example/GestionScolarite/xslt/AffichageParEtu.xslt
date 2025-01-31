@@ -6,12 +6,12 @@
         <html>
             <head>
                 <title>Class Results</title>
-                <link href="../CSS/styles1.css" rel="stylesheet" type="text/css"/>
+                <link href="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/css/stylesHTML.css" rel="stylesheet" type="text/css"/>
             </head>
             <body>
                 <div class="logo-container">
                     <div class="logo-content">
-                        <img src="../images/ensa_tanger.png" alt="Logo 2" class="logo"/>
+                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/ensa_tanger.png" alt="Logo 2" class="logo"/>
                         <div class="french-content">
                             <p>ROYAUME DU MAROC</p>
                             <p>ENSA DE TANGER</p>
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="logo-content" style=" direction: rtl;">
-                        <img src="../images/logoUAE.png" alt="Logo 1" class="logo"/>
+                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/logoUAE.png" alt="Logo 1" class="logo"/>
                         <div class="arabic-content">
                             <p>المملكة المغربية</p>
                             <p>المدرسة الوطنية للعلوم التطبيقية بطنجة</p>
@@ -32,7 +32,7 @@
                         <xsl:for-each select="notes/Etudiant[@CNE = $studentCNE]">
                             <h1>Relevé de notes</h1>
                             <xsl:variable name="cne" select="@CNE"/>
-                            <xsl:variable name="Etudiants" select="document('etudiants.xml')/Etudiants"/>
+                            <xsl:variable name="Etudiants" select="document('C:\XML__PROJECT\src\main\resources\com\example\GestionScolarite\xml\etudiants.xml')/Etudiants"/>
                             <xsl:variable name="studentInfo" select="$Etudiants/Etudiant[@CNE=$cne]"/>
                             <xsl:variable name="full_name" select="concat($studentInfo/lastName, ' ', $studentInfo/firstName)"/>
                             <xsl:variable name="total" select="format-number((sum(module/matiere) div count(module/matiere)), '#.##')"/>
@@ -53,7 +53,7 @@
                                 </tr>
                                 <xsl:for-each select="module">
                                     <xsl:variable name="moduleCode" select="@code"/>
-                                    <xsl:variable name="modules" select="document('modules.xml')/modules/module[@code=$moduleCode]"/>
+                                    <xsl:variable name="modules" select="document('C:\XML__PROJECT\src\main\resources\com\example\GestionScolarite\xml\Modules.xml')/modules/module[@code=$moduleCode]"/>
                                     <xsl:variable name="moduleName" select="$modules/Designation"/>
                                     <tr>
                                         <td rowspan="{count(matiere) + 1}">
@@ -116,7 +116,7 @@
                 
                     <h1>Relevé de notes</h1>
                     <xsl:variable name="cne" select="@CNE"/>
-                    <xsl:variable name="Etudiants" select="document('etudiants.xml')/Etudiants"/>
+                    <xsl:variable name="Etudiants" select="document('C:\XML__PROJECT\src\main\resources\com\example\GestionScolarite\xml\etudiants.xml')/Etudiants"/>
                     <xsl:variable name="studentInfo" select="$Etudiants/Etudiant[@CNE=$cne]"/>
                     <xsl:variable name="full_name" select="concat($studentInfo/lastName, ' ', $studentInfo/firstName)"/>
                     <xsl:variable name="total" select="format-number((sum(module/matiere) div count(module/matiere)), '#.##')"/>
@@ -138,7 +138,7 @@
                         </tr>
                         <xsl:for-each select="module">
                             <xsl:variable name="moduleCode" select="@code"/>
-                            <xsl:variable name="modules" select="document('modules.xml')/modules/module[@code=$moduleCode]"/>
+                            <xsl:variable name="modules" select="document('C:\XML__PROJECT\src\main\resources\com\example\GestionScolarite\xml\Modules.xml')/modules/module[@code=$moduleCode]"/>
                             <xsl:variable name="moduleName" select="$modules/Designation"/>
                             <tr>
                                 <td rowspan="{count(matiere) + 1}">
