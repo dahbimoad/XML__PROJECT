@@ -16,7 +16,7 @@
             <fo:page-sequence master-reference="A4-landscape">
                 <fo:flow flow-name="xsl-region-body">
                     <!-- Title -->
-                    <fo:block font-size="14pt" font-weight="bold" text-align="center" space-after="0.5cm">
+                    <fo:block font-size="14pt" font-weight="bold" text-align="center" space-after="0.5cm" color="#2c3e50">
                         Emploi du temps GINF2
                     </fo:block>
 
@@ -31,14 +31,14 @@
                         <!-- Header -->
                         <fo:table-header>
                             <fo:table-row>
-                                <fo:table-cell border="0.5pt solid black" padding="2pt" background-color="#f0f0f0">
-                                    <fo:block font-weight="bold" font-size="10pt" text-align="center">
+                                <fo:table-cell border="0.5pt solid #34495e" padding="2pt" background-color="#34495e">
+                                    <fo:block font-weight="bold" font-size="10pt" text-align="center" color="white">
                                         Horaire
                                     </fo:block>
                                 </fo:table-cell>
                                 <xsl:for-each select="emploi/Days/day">
-                                    <fo:table-cell border="0.5pt solid black" padding="2pt" background-color="#f0f0f0">
-                                        <fo:block font-weight="bold" font-size="10pt" text-align="center">
+                                    <fo:table-cell border="0.5pt solid #34495e" padding="2pt" background-color="#34495e">
+                                        <fo:block font-weight="bold" font-size="10pt" text-align="center" color="white">
                                             <xsl:value-of select="@name"/>
                                         </fo:block>
                                     </fo:table-cell>
@@ -51,14 +51,14 @@
                             <xsl:for-each select="emploi/times/time">
                                 <xsl:variable name="currentTime" select="@t"/>
                                 <fo:table-row>
-                                    <fo:table-cell border="0.5pt solid black" padding="2pt">
-                                        <fo:block font-size="9pt" text-align="center">
+                                    <fo:table-cell border="0.5pt solid #bdc3c7" padding="2pt" background-color="#ecf0f1">
+                                        <fo:block font-size="9pt" text-align="center" color="#2c3e50">
                                             <xsl:value-of select="$currentTime"/>
                                         </fo:block>
                                     </fo:table-cell>
                                     <xsl:for-each select="/emploi/Days/day">
                                         <xsl:variable name="currentDay" select="@name"/>
-                                        <fo:table-cell border="0.5pt solid black" padding="2pt">
+                                        <fo:table-cell border="0.5pt solid #bdc3c7" padding="2pt">
                                             <fo:block>
                                                 <xsl:choose>
                                                     <xsl:when test="/emploi/matieres/matiere[jour=$currentDay and startTime=$currentTime]">
@@ -66,13 +66,16 @@
                                                             <fo:block font-size="8pt"
                                                                     margin-bottom="2pt"
                                                                     padding="2pt"
-                                                                    background-color="#e6e6e6"
+                                                                    background-color="#e8f6f3"
+                                                                    border="0.5pt solid #a3e4d7"
                                                                     text-align="center">
-                                                                <xsl:value-of select="nom"/>
-                                                                <fo:block font-size="7pt">
+                                                                <fo:block font-weight="bold" color="#2c3e50">
+                                                                    <xsl:value-of select="nom"/>
+                                                                </fo:block>
+                                                                <fo:block font-size="7pt" color="#34495e">
                                                                     <xsl:value-of select="nomProf"/>
                                                                 </fo:block>
-                                                                <fo:block font-size="7pt">
+                                                                <fo:block font-size="7pt" color="#7f8c8d">
                                                                     <xsl:value-of select="salle"/>
                                                                 </fo:block>
                                                             </fo:block>
@@ -91,7 +94,7 @@
                     </fo:table>
 
                     <!-- Legend -->
-                    <fo:block space-before="0.5cm" font-size="9pt">
+                    <fo:block space-before="0.5cm" font-size="9pt" color="#2c3e50">
                         <fo:block font-weight="bold" margin-bottom="2pt">Légende:</fo:block>
                         <fo:block margin-left="1cm">CM - Cours Magistral</fo:block>
                         <fo:block margin-left="1cm">TP - Travaux Pratiques</fo:block>
