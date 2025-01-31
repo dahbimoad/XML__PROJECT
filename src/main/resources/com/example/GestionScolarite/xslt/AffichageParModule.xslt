@@ -32,7 +32,7 @@
                             <h1>Code : <xsl:value-of select="@code"/></h1>
                             <h1>Module : <xsl:value-of select="Designation"/></h1>
                             <table border="1">
-                                
+
                                 <tr>
                                     <th>Cne</th>
                                     <th>Nom Complet</th>
@@ -90,11 +90,11 @@
                                             </xsl:if>
                                         </td>
                                     </tr>
-                                    
+
                                 </xsl:for-each>
-                                
+
                             </table>
-                        </xsl:for-each> 
+                        </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
                       <xsl:for-each select="modules/module">
@@ -102,7 +102,7 @@
                     <h1>Code : <xsl:value-of select="@code"/></h1>
                     <h1>Module : <xsl:value-of select="Designation"/></h1>
                     <table border="1">
-                        
+
                         <tr>
                             <th>Cne</th>
                             <th>Nom Complet</th>
@@ -160,11 +160,11 @@
                                         </xsl:if>
                                     </td>
                             </tr>
-                            
+
                          </xsl:for-each>
-                        
+
                     </table>
-                </xsl:for-each>  
+                </xsl:for-each>
                     </xsl:otherwise>
                 </xsl:choose>
 
