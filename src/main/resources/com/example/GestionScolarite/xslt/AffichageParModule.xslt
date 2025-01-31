@@ -4,21 +4,20 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link href="../CSS/styles1.css" rel="stylesheet" type="text/css"/>
+                <link href="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/css/stylesHTML.css" rel="stylesheet" type="text/css"/>
                 <title>Class Results</title>
             </head>
             <body>
                 <div class="logo-container">
                     <div class="logo-content">
-                        <img src="../images/ensa_tanger.png" alt="Logo 2" class="logo"/>
-                        <div class="french-content">
+                            <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/ensa_tanger.png" alt="Logo 2" class="logo"/>                        <div class="french-content">
                             <p>ROYAUME DU MAROC</p>
                             <p>ENSA DE TANGER</p>
                             <p>UNIVERSITÉ ABDELMALEK ESSAÂDI</p>
                         </div>
                     </div>
                     <div class="logo-content" style=" direction: rtl;">
-                        <img src="../images/logoUAE.png" alt="Logo 1" class="logo"/>
+                        <img src="C:/XML__PROJECT/src/main/resources/com/example/GestionScolarite/images/logoUAE.png" alt="Logo 1" class="logo"/>
                         <div class="arabic-content">
                             <p>المملكة المغربية</p>
                             <p>المدرسة الوطنية للعلوم التطبيقية بطنجة</p>
@@ -28,7 +27,7 @@
                 </div>
                 <xsl:choose>
                     <xsl:when test="$codeModu">
-                        <xsl:for-each select="modules/module[@code = $codeModu]">
+                        <xsl:for-each select="document('Modules.xml')/modules/module[@code = $codeModu]">
                             <xsl:variable name="codemod" select="@code"/>
                             <h1>Code : <xsl:value-of select="@code"/></h1>
                             <h1>Module : <xsl:value-of select="Designation"/></h1>

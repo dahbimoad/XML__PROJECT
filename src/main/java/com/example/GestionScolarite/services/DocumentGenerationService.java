@@ -1,6 +1,10 @@
 package com.example.GestionScolarite.services;
 
-import org.apache.fop.apps.*;
+import org.apache.fop.apps.FOUserAgent;
+import org.apache.fop.apps.Fop;
+import org.apache.fop.apps.FopFactory;
+import org.apache.fop.apps.MimeConstants;
+
 import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamResult;
@@ -45,33 +49,66 @@ public class DocumentGenerationService {
     }
 
     public void generateHTML(String xmlPath, String xsltPath, String outputPath, String paramName, String paramValue) throws TransformerException {
-         System.out.println("Generating HTML with:");
-        System.out.println("XML Path: " + xmlPath);
-        System.out.println("XSLT Path: " + xsltPath);
-        System.out.println("Output Path: " + outputPath);
-        // Source XML file
-        Source xmlInput = new StreamSource(xmlPath);
-
-        // XSLT file
-        Source xslt = new StreamSource(xsltPath);
-
-        // Output HTML file
-        Result htmlOutput = new StreamResult(outputPath);
-
-        // Create a transformer factory
+    try {
+        // Create transformer factory
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
 
-        // Create transformer for XSLT
-        Transformer transformer = transformerFactory.newTransformer(xslt);
+        // Set security properties to allow access to external files
+        System.setProperty("javax.xml.transform.TransformerFactory", "com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl");
+        System.setProperty("javax.xml.accessExternalDTD", "all");
+        System.setProperty("javax.xml.accessExternalStylesheet", "all");
+        System.setProperty("javax.xml.accessExternalSchema", "all");
+
+        // Get the base directory for resolving relative paths
+        File xsltFile = new File(xsltPath);
+        String baseDir = xsltFile.getParent();
+
+        // Set up URI resolver for document() function
+        transformerFactory.setURIResolver((href, base) -> {
+            try {
+                String resolvedPath;
+                if (href.contains("etudiants.xml") || href.contains("Modules.xml") || href.contains("S3S4notessmall.xml")) {
+                    resolvedPath = new File(baseDir, "../xml/" + href).getCanonicalPath();
+                    System.out.println("Resolving document() href: " + href + " to: " + resolvedPath);
+                    return new StreamSource(new File(resolvedPath));
+                }
+                return null;
+            } catch (Exception e) {
+                e.printStackTrace();
+                return null;
+            }
+        });
+
+        // Create XSLT transformer
+        StreamSource xsltSource = new StreamSource(new File(xsltPath));
+        Transformer transformer = transformerFactory.newTransformer(xsltSource);
 
         // Set parameter if provided
         if (paramName != null && paramValue != null) {
             transformer.setParameter(paramName, paramValue);
+            System.out.println("Setting parameter: " + paramName + " = " + paramValue);
         }
 
-        // Perform the transformation
-        transformer.transform(xmlInput, htmlOutput);
+        // Set up input and output
+        StreamSource xmlSource = new StreamSource(new File(xmlPath));
+
+        // Ensure output directory exists
+        File outputFile = new File(outputPath);
+        outputFile.getParentFile().mkdirs();
+
+        // Create output stream
+        StreamResult htmlOutput = new StreamResult(outputFile);
+
+        // Perform transformation
+        transformer.transform(xmlSource, htmlOutput);
+        System.out.println("Transformation completed successfully");
+
+    } catch (TransformerException e) {
+        System.err.println("Transformation failed: " + e.getMessage());
+        e.printStackTrace();
+        throw e;
     }
+}
 
     public void generateExcel(String xmlPath, String xsltPath, String outputPath) throws IOException, TransformerException {
         try (FileOutputStream excelOutput = new FileOutputStream(outputPath)) {

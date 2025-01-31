@@ -20,6 +20,8 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamSource;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashSet;
@@ -443,23 +445,42 @@ public class MainController {
         }
     }
 
-    @FXML
+@FXML
 public void AffichageMod(ActionEvent actionEvent) {
     try {
-        // Use the correct file names and paths
-        String xmlFile = "S3S4notessmall.xml";  // Make sure this file exists in your resources
+        // Use S3S4notessmall.xml as the main XML file since it has all the module data
+        String xmlFile = "Modules.xml";
         String xsltFile = "AffichageParModule.xslt";
 
-        // Get the absolute paths using PathResolver
+        // Get absolute paths
         String xmlPath = pathResolver.getResourcePath(xmlFile);
         String xsltPath = pathResolver.getResourcePath(xsltFile);
 
-        System.out.println("XML Path: " + xmlPath);  // Debug print
-        System.out.println("XSLT Path: " + xsltPath);  // Debug print
+        System.out.println("XML Path: " + xmlPath);
+        System.out.println("XSLT Path: " + xsltPath);
+
+        // Create transformer factory
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+
+        // Set the URI resolver to handle document() function calls
+        transformerFactory.setURIResolver((href, base) -> {
+            String resolvedPath;
+            if (href.contains("etudiants.xml")) {
+                resolvedPath = pathResolver.getResourcePath("etudiants.xml");
+            } else if (href.contains("modules.xml")) {
+                resolvedPath = pathResolver.getResourcePath("Modules.xml");
+            } else if (href.contains("S3S4notessmall.xml")) {
+                resolvedPath = pathResolver.getResourcePath("S3S4notessmall.xml");
+            } else {
+                return null;
+            }
+            return new StreamSource(new File(resolvedPath));
+        });
 
         if (tousmod.isSelected()) {
             String outputPath = pathResolver.getOutputPath("html/modules/AffichageModules.html");
-            System.out.println("Output Path: " + outputPath);  // Debug print
+            System.out.println("Output Path (all modules): " + outputPath);
+
             documentService.generateHTML(xmlPath, xsltPath, outputPath, null, null);
             AlertUtil.showSuccessAlert("Succès", "Affichage des modules généré avec succès");
         }
@@ -472,13 +493,15 @@ public void AffichageMod(ActionEvent actionEvent) {
             }
 
             String outputPath = pathResolver.getOutputPath("html/modules/" + code + "_module.html");
-            System.out.println("Output Path (single module): " + outputPath);  // Debug print
+            System.out.println("Output Path (single module): " + outputPath);
+            System.out.println("Module Code: " + code);
+
             documentService.generateHTML(xmlPath, xsltPath, outputPath, "codeModu", code);
             AlertUtil.showSuccessAlert("Succès", "Affichage du module généré avec succès");
         }
     } catch (Exception e) {
         e.printStackTrace();  // Print full stack trace for debugging
-        AlertUtil.showErrorAlert("Erreur d'affichage des modules", e.getMessage());
+        AlertUtil.showErrorAlert("Erreur d'affichage des modules", "Détail: " + e.getMessage());
     }
 }
 }
