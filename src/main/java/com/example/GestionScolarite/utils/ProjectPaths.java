@@ -1,5 +1,6 @@
 package com.example.GestionScolarite.utils;
 
+import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class ProjectPaths {
@@ -16,37 +17,43 @@ public class ProjectPaths {
 
     // Get full resource base path
     public static String getResourceBasePath() {
-        return Paths.get(PROJECT_ROOT, RESOURCES_DIR, APP_PACKAGE).toString();
+        Path path = Paths.get(PROJECT_ROOT, RESOURCES_DIR, APP_PACKAGE);
+        ensureDirectoryExists(path);
+        return path.toString();
     }
 
     // Get XML directory path
     public static String getXmlPath() {
-        return Paths.get(getResourceBasePath(), XML_DIR).toString();
+        Path path = Paths.get(getResourceBasePath(), XML_DIR);
+        ensureDirectoryExists(path);
+        return path.toString();
     }
 
     // Get XSL directory path
     public static String getXslPath() {
-        return Paths.get(getResourceBasePath(), XSL_DIR).toString();
+        Path path = Paths.get(getResourceBasePath(), XSL_DIR);
+        ensureDirectoryExists(path);
+        return path.toString();
     }
 
     // Get XSLT directory path
     public static String getXsltPath() {
-        return Paths.get(getResourceBasePath(), XSLT_DIR).toString();
+        Path path = Paths.get(getResourceBasePath(), XSLT_DIR);
+        ensureDirectoryExists(path);
+        return path.toString();
     }
 
     // Get output directory path
     public static String getOutputPath() {
-        return Paths.get(PROJECT_ROOT, OUTPUT_DIR).toString();
+        Path path = Paths.get(PROJECT_ROOT, OUTPUT_DIR);
+        ensureDirectoryExists(path);
+        return path.toString();
     }
 
-    // Debug method to print all paths
-    public static void printPaths() {
-        System.out.println("=== Project Paths ===");
-        System.out.println("Project Root: " + PROJECT_ROOT);
-        System.out.println("Resource Base: " + getResourceBasePath());
-        System.out.println("XML Directory: " + getXmlPath());
-        System.out.println("XSL Directory: " + getXslPath());
-        System.out.println("XSLT Directory: " + getXsltPath());
-        System.out.println("Output Directory: " + getOutputPath());
+    // Ensure directory exists
+    private static void ensureDirectoryExists(Path path) {
+        if (!path.toFile().exists()) {
+            path.toFile().mkdirs();
+        }
     }
 }

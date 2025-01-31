@@ -405,32 +405,41 @@ public class MainController {
     }
 
     @FXML
-    public void AffichageMod(ActionEvent actionEvent) {
-        try {
-            String xmlFile = "Modules.xml";
-            String xsltFile = "AffichageParModule.xslt";
-            String xmlPath = pathResolver.getResourcePath(xmlFile);
-            String xsltPath = pathResolver.getResourcePath(xsltFile);
+public void AffichageMod(ActionEvent actionEvent) {
+    try {
+        // Use the correct file names and paths
+        String xmlFile = "S3S4notessmall.xml";  // Make sure this file exists in your resources
+        String xsltFile = "AffichageParModule.xslt";
 
-            if (tousmod.isSelected()) {
-                String outputPath = pathResolver.getOutputPath("html/modules/AffichageModules.html");
-                documentService.generateHTML(xmlPath, xsltPath, outputPath, null, null);
-                AlertUtil.showSuccessAlert("Succès", "Affichage des modules généré avec succès");
-            }
+        // Get the absolute paths using PathResolver
+        String xmlPath = pathResolver.getResourcePath(xmlFile);
+        String xsltPath = pathResolver.getResourcePath(xsltFile);
 
-            if (unseulmod.isSelected()) {
-                String code = CodeModule.getText();
-                if (code.isEmpty()) {
-                    AlertUtil.showErrorAlert("Erreur", "Veuillez saisir un code module");
-                    return;
-                }
+        System.out.println("XML Path: " + xmlPath);  // Debug print
+        System.out.println("XSLT Path: " + xsltPath);  // Debug print
 
-                String outputPath = pathResolver.getOutputPath("html/modules/" + code + "_module.html");
-                documentService.generateHTML(xmlPath, xsltPath, outputPath, "codeModu", code);
-                AlertUtil.showSuccessAlert("Succès", "Affichage du module généré avec succès");
-            }
-        } catch (Exception e) {
-            AlertUtil.showErrorAlert("Erreur d'affichage des modules", e.getMessage());
+        if (tousmod.isSelected()) {
+            String outputPath = pathResolver.getOutputPath("html/modules/AffichageModules.html");
+            System.out.println("Output Path: " + outputPath);  // Debug print
+            documentService.generateHTML(xmlPath, xsltPath, outputPath, null, null);
+            AlertUtil.showSuccessAlert("Succès", "Affichage des modules généré avec succès");
         }
+
+        if (unseulmod.isSelected()) {
+            String code = CodeModule.getText();
+            if (code.isEmpty()) {
+                AlertUtil.showErrorAlert("Erreur", "Veuillez saisir un code module");
+                return;
+            }
+
+            String outputPath = pathResolver.getOutputPath("html/modules/" + code + "_module.html");
+            System.out.println("Output Path (single module): " + outputPath);  // Debug print
+            documentService.generateHTML(xmlPath, xsltPath, outputPath, "codeModu", code);
+            AlertUtil.showSuccessAlert("Succès", "Affichage du module généré avec succès");
+        }
+    } catch (Exception e) {
+        e.printStackTrace();  // Print full stack trace for debugging
+        AlertUtil.showErrorAlert("Erreur d'affichage des modules", e.getMessage());
     }
+}
 }

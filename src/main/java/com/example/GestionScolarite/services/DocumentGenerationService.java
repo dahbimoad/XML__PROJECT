@@ -45,6 +45,10 @@ public class DocumentGenerationService {
     }
 
     public void generateHTML(String xmlPath, String xsltPath, String outputPath, String paramName, String paramValue) throws TransformerException {
+         System.out.println("Generating HTML with:");
+        System.out.println("XML Path: " + xmlPath);
+        System.out.println("XSLT Path: " + xsltPath);
+        System.out.println("Output Path: " + outputPath);
         // Source XML file
         Source xmlInput = new StreamSource(xmlPath);
 
