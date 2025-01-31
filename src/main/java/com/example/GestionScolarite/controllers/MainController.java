@@ -20,6 +20,8 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -256,57 +258,94 @@ public class MainController {
 
     @FXML
     private void HandleAffichage() {
-        try {
-            if (AffichageNotes.isSelected()) {
-                generateClassNotes();
-            }
-            if (StudentAffichage.isSelected()) {
-                generateStudentNotes();
-            }
-        } catch (Exception e) {
-            AlertUtil.showErrorAlert("Erreur d'affichage", e.getMessage());
+    try {
+        if (AffichageNotes.isSelected()) {
+            generateClassNotes();
         }
+        if (StudentAffichage.isSelected()) {
+            generateStudentNotes();
+        }
+    } catch (Exception e) {
+        e.printStackTrace(); // Add stack trace for debugging
+        AlertUtil.showErrorAlert("Erreur d'affichage", e.getMessage());
     }
+}
 
     private void generateClassNotes() {
-        try {
-            String xmlFile = "S3S4notessmall.xml";
-            String xsltFile = "AffichageParEtu.xslt";
-            String outputFile = "/notes/AffichageClasse.html";
+    try {
+        // Debug prints to verify paths
+        System.out.println("Starting generateClassNotes");
 
-            String xmlPath = pathResolver.getResourcePath(xmlFile);
-            String xsltPath = pathResolver.getResourcePath(xsltFile);
-            String outputPath = pathResolver.getOutputPath("html" + outputFile);
+        String xmlFile = "etudiants.xml";
+        String xsltFile = "AffichageParEtu.xslt";
+        String outputFile = "/notes/AffichageClasse.html";
 
-            documentService.generateHTML(xmlPath, xsltPath, outputPath, null, null);
-            AlertUtil.showSuccessAlert("Succès", "Notes de classe générées avec succès");
-        } catch (Exception e) {
-            AlertUtil.showErrorAlert("Erreur de génération des notes", e.getMessage());
+        // Get absolute paths using PathResolver
+        String xmlPath = pathResolver.getResourcePath(xmlFile);
+        String xsltPath = pathResolver.getResourcePath(xsltFile);
+        String outputPath = pathResolver.getOutputPath("html" + outputFile);
+
+        // Debug prints
+        System.out.println("XML Path: " + xmlPath);
+        System.out.println("XSLT Path: " + xsltPath);
+        System.out.println("Output Path: " + outputPath);
+
+        // Verify file existence
+        if (!new File(xmlPath).exists()) {
+            throw new FileNotFoundException("XML file not found: " + xmlPath);
         }
+        if (!new File(xsltPath).exists()) {
+            throw new FileNotFoundException("XSLT file not found: " + xsltPath);
+        }
+
+        documentService.generateHTML(xmlPath, xsltPath, outputPath, null, null);
+        AlertUtil.showSuccessAlert("Succès", "Notes de classe générées avec succès");
+    } catch (Exception e) {
+        e.printStackTrace(); // Add stack trace for debugging
+        AlertUtil.showErrorAlert("Erreur de génération des notes", "Détail: " + e.getMessage());
     }
+}
 
     private void generateStudentNotes() {
-        String cne = AffichageCne.getText();
-        if (cne.isEmpty()) {
-            AlertUtil.showErrorAlert("Erreur", "Veuillez saisir un CNE");
-            return;
-        }
-
-        try {
-            String xmlFile = "S3S4notessmall.xml";
-            String xsltFile = "AffichageParEtu.xslt";
-            String outputFile = "/notes/" + cne + "_notes.html";
-
-            String xmlPath = pathResolver.getResourcePath(xmlFile);
-            String xsltPath = pathResolver.getResourcePath(xsltFile);
-            String outputPath = pathResolver.getOutputPath("html" + outputFile);
-
-            documentService.generateHTML(xmlPath, xsltPath, outputPath, "studentCNE", cne);
-            AlertUtil.showSuccessAlert("Succès", "Notes de l'étudiant générées avec succès");
-        } catch (Exception e) {
-            AlertUtil.showErrorAlert("Erreur de génération des notes", e.getMessage());
-        }
+    String cne = AffichageCne.getText();
+    if (cne.isEmpty()) {
+        AlertUtil.showErrorAlert("Erreur", "Veuillez saisir un CNE");
+        return;
     }
+
+    try {
+        // Debug prints to verify paths
+        System.out.println("Starting generateStudentNotes for CNE: " + cne);
+
+        String xmlFile = "etudiants.xml";
+        String xsltFile = "AffichageParEtu.xslt";
+        String outputFile = "/notes/" + cne + "_notes.html";
+
+        // Get absolute paths using PathResolver
+        String xmlPath = pathResolver.getResourcePath(xmlFile);
+        String xsltPath = pathResolver.getResourcePath(xsltFile);
+        String outputPath = pathResolver.getOutputPath("html" + outputFile);
+
+        // Debug prints
+        System.out.println("XML Path: " + xmlPath);
+        System.out.println("XSLT Path: " + xsltPath);
+        System.out.println("Output Path: " + outputPath);
+
+        // Verify file existence
+        if (!new File(xmlPath).exists()) {
+            throw new FileNotFoundException("XML file not found: " + xmlPath);
+        }
+        if (!new File(xsltPath).exists()) {
+            throw new FileNotFoundException("XSLT file not found: " + xsltPath);
+        }
+
+        documentService.generateHTML(xmlPath, xsltPath, outputPath, "studentCNE", cne);
+        AlertUtil.showSuccessAlert("Succès", "Notes de l'étudiant générées avec succès");
+    } catch (Exception e) {
+        e.printStackTrace(); // Add stack trace for debugging
+        AlertUtil.showErrorAlert("Erreur de génération des notes", "Détail: " + e.getMessage());
+    }
+}
 
     @FXML
     public void GenererReu(ActionEvent actionEvent) {
