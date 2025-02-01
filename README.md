@@ -9,7 +9,7 @@ Pour utiliser ce projet, suivez ces étapes :
 1. **Cloner le Repository**
 
    ```bash
-   git clone https://github.com/dahbimoad/xml-project-2.gi
+   git clone https://github.com/dahbimoad/xml-project-2.git
 2. Déplacer le Dossier du Projet</span>
 
 Pour éviter les problèmes avec les chemins absolus utilisés dans le projet, déplacez le dossier du projet vers C :\.
