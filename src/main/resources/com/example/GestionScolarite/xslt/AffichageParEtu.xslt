@@ -85,7 +85,7 @@
             <td>
               <xsl:choose>
                 <xsl:when test="$student/module[@code=$moduleCode]">
-                  <xsl:variable name="score" select="sum($student/module[@code=$moduleCode]/matiere)"/>
+                  <xsl:variable name="score" select="sum($student/module[@code=$moduleCode]/matiere) div 2"/>
                   <xsl:attribute name="style">
                     <xsl:choose>
                       <xsl:when test="$score >= 12">background-color: #d4edda;</xsl:when>
@@ -110,7 +110,7 @@
         <td colspan="3" style="font-weight:bold;">Moyenne de la classe</td>
         <xsl:for-each select="$modules/modules/module">
           <td>
-            <xsl:value-of select="format-number(sum($grades//module[@code=current()/@code]/matiere) div count($grades//Etudiant), '#.##')"/>
+            <xsl:value-of select="format-number(sum($grades//module[@code=current()/@code]/matiere) div count($grades//Etudiant) div 2, '#.##')"/>
           </td>
         </xsl:for-each>
         <td>
