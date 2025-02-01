@@ -28,7 +28,6 @@ mvn install
 
 Ou bien, utilisez Maven directement dans IntelliJ IDEA en ouvrant le projet, puis en allant dans `View` > `Tool Windows` > `Maven` et en exécutant `install`.
 ```
-ou intilij !!
 ### 3. Exécuter le Projet
 
 Une fois les dépendances installées, vous pouvez exécuter le projet en suivant ces étapes :
