@@ -10,9 +10,9 @@ Pour utiliser ce projet, suivez ces étapes :
 
    ```bash
    git clone https://github.com/dahbimoad/xml-project-2.gi
-<span style="color:red">2. Déplacer le Dossier du Projet</span>
+2. Déplacer le Dossier du Projet</span>
 
-<span style="color:red">Pour éviter les problèmes avec les chemins absolus utilisés dans le projet, déplacez le dossier du projet vers C:\.</span>
+Pour éviter les problèmes avec les chemins absolus utilisés dans le projet, déplacez le dossier du projet vers C :\.
     
 2.  **Exécuter le Projet**
     
