@@ -10,10 +10,9 @@ import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.input.Clipboard;
+import javafx.scene.input.ClipboardContent;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -78,6 +77,7 @@ public class MainController {
         loadStudentData();
         loadModuleData();
         setupSearch();
+        setupContextMenus();
     }
     private void setupStudentTable() {
     if (cneColumn != null) {
@@ -503,5 +503,42 @@ public void AffichageMod(ActionEvent actionEvent) {
         e.printStackTrace();  // Print full stack trace for debugging
         AlertUtil.showErrorAlert("Erreur d'affichage des modules", "Détail: " + e.getMessage());
     }
+}
+private void setupContextMenus() {
+    // Setup context menu for student table
+    ContextMenu studentContextMenu = new ContextMenu();
+    MenuItem copyStudentCNE = new MenuItem("Copier CNE");
+    copyStudentCNE.setOnAction(event -> {
+        Student selectedStudent = studentTable.getSelectionModel().getSelectedItem();
+        if (selectedStudent != null) {
+            copyToClipboard(selectedStudent.getCne());
+            AlertUtil.showSuccessAlert("Copié!", "CNE copié dans le presse-papiers");
+        }
+    });
+    studentContextMenu.getItems().add(copyStudentCNE);
+
+    studentTable.setContextMenu(studentContextMenu);
+
+    // Setup context menu for module table
+    ContextMenu moduleContextMenu = new ContextMenu();
+    MenuItem copyModuleCode = new MenuItem("Copier Code");
+    copyModuleCode.setOnAction(event -> {
+        Module selectedModule = moduleTable.getSelectionModel().getSelectedItem();
+        if (selectedModule != null) {
+            copyToClipboard(selectedModule.getCode());
+            AlertUtil.showSuccessAlert("Copié!", "Code module copié dans le presse-papiers");
+        }
+    });
+    moduleContextMenu.getItems().add(copyModuleCode);
+
+    moduleTable.setContextMenu(moduleContextMenu);
+}
+
+// Add this helper method to your class
+private void copyToClipboard(String text) {
+    final Clipboard clipboard = Clipboard.getSystemClipboard();
+    final ClipboardContent content = new ClipboardContent();
+    content.putString(text);
+    clipboard.setContent(content);
 }
 }

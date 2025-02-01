@@ -121,12 +121,12 @@
                 <!-- Search Fields -->
                 <HBox spacing="20" alignment="CENTER">
                     <VBox spacing="10" HBox.hgrow="ALWAYS">
-                        <Label text="Rechercher des étudiants"/>
-                        <TextField fx:id="studentSearchField" promptText="Rechercher un étudiant..."/>
+                        <Label text="Rechercher des étudiants" styleClass="search-label"/>
+                        <TextField fx:id="studentSearchField" promptText="Rechercher un étudiant..." styleClass="search-field"/>
                     </VBox>
                     <VBox spacing="10" HBox.hgrow="ALWAYS">
-                        <Label text="Rechercher des modules"/>
-                        <TextField fx:id="moduleSearchField" promptText="Rechercher un module..."/>
+                        <Label text="Rechercher des modules" styleClass="search-label"/>
+                        <TextField fx:id="moduleSearchField" promptText="Rechercher un module..." styleClass="search-field"/>
                     </VBox>
                 </HBox>
 
